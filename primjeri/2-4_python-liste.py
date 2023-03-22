@@ -3,7 +3,7 @@
 """
 Created on Fri Mar 17 14:47:35 2023
 
-@author: user
+@author: dragancajic
 """
 
 lista = ["elem1", 2.0, 3, "elem2"]
@@ -13,3 +13,6 @@ print(lista)
 
 colors = ['red', 'blue', 'green']
 print(colors)
+
+for elem in lista:
+    print(elem)
