@@ -1,6 +1,7 @@
 # Zadatak 4
-# Zadatak na str. 49 / Knjiga - Practical Programming: An Introduction to Computer Science Using Python 3.6
-# Designing Three Birthday-Related Functions
+# Zadatak na str. 49 / Knjiga - Practical Programming:
+# An Introduction to Computer Science Using Python 3.6
+# > Designing Three Birthday-Related Functions
 
 def days_difference(day1: int, day2: int) -> int:
     """Return the number of days between day1 and day2, which are
