@@ -18,8 +18,8 @@ Created on Sun Jan 28 13:48:46 2024
 # kao proizvod njihovih cifara, te se navedenom proizvodu zamijene prva i
 # posljednja cifra.
 
-# Navedeni rezultat čuvati u istoj datoteci. Generisane brojeve i rezulat
-# razdvojiti linijom koja sadrzi 20 znakova '='. Npr. generisani brojevi su:
+# Navedeni rezultat čuvati u istoj datoteci. Generisane brojeve i rezultat
+# razdvojiti linijom koja sadrži 20 znakova '='. Npr. generisani brojevi su:
 #   3, 76, 14, 93, 87, 49
 # (3, 76) 3*76 = 228, 3*7*6 = 126 -> 621, 228 < 621. Odnosno (3, 76) -> (228, 621).
 
@@ -63,7 +63,7 @@ def prekid_generisanja(lista):
     '''
     if lista == []:
         return False
-
+    
     uslov = False
     s1 = suma_cifara(lista[-1])
     for e in lista[:-1]:
@@ -123,10 +123,10 @@ def zamijeni_prvu_i_posljednju_cifru(n):
     # mijenjamo prvu i posljednju cifru u listi
     cifre[0] = posljednja
     cifre[-1] = prva
-
+    
     # na jednostavniji način smo mogli zamijeniti prvu i posljednju cifru u
     # listi: `cifre[0], cifre[-1] = cifre[-1], cifre[0]`. √
-
+    
     novi_broj = broj_od_cifara(cifre)
     return novi_broj
 
@@ -148,7 +148,7 @@ def trazeni_rezultat_za_par(par_brojeva):
 
 if __name__ == '__main__':
     # za početak generišemo traženu datoteku
-    datoteka = "datoteka.txt"
+    datoteka = "datoteka_z4.txt"
     donja_granica_brojeva = 3
     gornja_granica_brojeva = 99
     generisi_datoteku(naziv_datoteke=datoteka,
@@ -156,7 +156,7 @@ if __name__ == '__main__':
                       do=gornja_granica_brojeva)
     generisani_brojevi = citaj_sadrzaj_datoteke(datoteka)
     parovi_brojeva = uredjeni_parovi(generisani_brojevi)
-
+    
     # otvaramo datoteku da bismo dopisali uređene parove i njihove rezultate;
     # kako trebamo dopisivati, koristimo mod 'a', odnosno 'append' √
     with open(datoteka, 'a') as f:
