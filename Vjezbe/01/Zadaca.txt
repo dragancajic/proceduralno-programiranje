@@ -1,0 +1,28 @@
+1.
+Napisati program koji za vremena polijetanja i slijetanja aviona unesena u
+satima i minutama ispisuje dužinu trajanja leta.
+Pretpostaviti da avion polijeće i slijeće  u istom danu.
+
+2.
+Napisati program koji učitava pozitivan trocifren broj i ispisuje broj koji
+je dobijen obrtanjem njegovih cifara. Pretpostaviti da je unos ispravan.
+Na primjer:
+    247 -> 742
+    430 -> 34
+
+3.
+Napisati program koji učitava pozitivan četverocifren broj.
+Program nakon toga ispisuje:
+- Proizvod cifara unesenog broja;
+- Sumu kvadrata cifara unesenog broja;
+- Broj koji se dobije obrtanjem cifara unesenog broja;
+- Broj koji se dobije zamjenom cifara jadinica i stotica unesenog broja.
+
+4.
+Napisati program koji dužinu puta u miljama konvertuje u kilometre.
+Jedna milja ima 1.609334 kilometara. Rezultat zaokružiti na tri decimale.
+
+5.
+Napisati program koji učitava pozitivan cio broj m i pozitivan dvocifren broj k.
+Program ispisuje broj koji nastaje umetanjem broja k između cifara stotina i
+hiljada broja m. Na primjer: m = 12345, k = 67 -> 1267345.
