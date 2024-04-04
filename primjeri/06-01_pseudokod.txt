@@ -1,0 +1,20 @@
+# Tue 02 Apr 2024 03:19:14 AM CEST
+
+
+# Primjer pseudokoda
+
+// Ulaz: niz a, broj elemenata n niza a
+// Izlaz: indeks najvećeg elementa niza a
+algorithm max(a, n)
+
+    m = a[1]; // najveći element nađen do sada
+    j = 1;    // indeks najvećeg elementa
+    
+    i = 2;    // proveriti ostale elemente niza
+    while (i <= n) do
+        if (m < a[i]) then // nađen veći element od privremeno najvećeg
+            m = a[i];      // zapamtiti veći element
+            j = i;         // ... i njegov indeks
+        i = i + 1; // preći na sledeći element niza
+    
+    return j; // vratiti indeks najvećeg elementa
