@@ -8,8 +8,9 @@ Created on Tue Mar 21 15:09:20 2023
 
 mapa = {"ime": "Dragan", "prezime": "Cajic"}
 
+print(mapa.keys())
 print(mapa.values())
 print(mapa.items())
 
-for x, y in mapa.items():
-    print(f"kljuc: {x}, vrijednost: {y}")
+for key, value in mapa.items():
+    print(f"kljuc: {key}, vrijednost: {value}")

@@ -1,0 +1,14 @@
+Fri 12 Apr 2024 07:35:38 PM CEST
+
+
+        ▪ П Р Е Д А В А Њ Е  2 ▪
+
+~ Типови података у Пајтону: преглед ~
+
+Text Type:       `str`
+Numeric Types:   `int`, `float`, `complex`
+Sequence Types:  `list`, `tuple`, `range`
+Mapping Type:    `dict`
+Set Types:       `set`, `frozenset`
+Boolean Type:    `bool`
+Binary Types:    `bytes`, `bytearray`, `memoryview`
