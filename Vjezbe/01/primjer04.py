@@ -1,32 +1,34 @@
-#                           ---Konverzija brojeva iz jednog tipa u drugi---
+'''
+                        ---Konverzija brojeva iz jednog tipa u drugi---
+'''
 
-x = 1    # int
-y = 2.8  # float
-z = 1j   # complex
+X = 1    # int
+Y = 2.8  # float
+Z = 1j   # complex
 
 # Konverzija - int u float:
-a = float(x)
+a = float(X)
 print("a =", a)
 
 # Konverzija - int u complex:
-b = complex(x)
+b = complex(X)
 print("b =", b)
 
 # Konverzija - float u int:
-c = int(y)
-print("c =", c)
+C = int(Y)
+print("C =", C)
 
 # Konverzija - float u complex:
-d = complex(y)
+d = complex(Y)
 print("d =", d)
 
 # Konverzija - complex u int - nije dozvoljeno!
-#e = int(z)
+#e = int(Z)
 
 # Konverzija - complex u float - nije dozvoljeno!
-#f = float(z)
+#f = float(Z)
 
 print("type(a):", type(a))
 print("type(b):", type(b))
-print("type(c):", type(c))
+print("type(C):", type(C))
 print("type(d):", type(d))

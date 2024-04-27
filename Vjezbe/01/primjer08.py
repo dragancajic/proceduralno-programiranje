@@ -1,6 +1,8 @@
-#                           ---Unos podataka sa tastature--
+'''
+                ---Unos podataka sa tastature--
+'''
 
-# naredba input - unos teksta sa tastature
+# naredba `input` - unos teksta sa tastature
 ime = input("Unesite vase ime: ")
 print("Ime:", ime)
 
