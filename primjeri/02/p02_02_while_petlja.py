@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Mar 15 09:21:52 2023
-Modified @ Sun 04 Feb 2024 14:14:47
+Modified @ Thu 09 May 2024 19:00:10
 
 @author: dragancajic
 """
@@ -23,12 +23,12 @@ while test_expression:
 '''
 
 # initialize sum and counter
-sum_nums = 0
+SUM_NUMS = 0
 i = 1
 while i <= n:
-    sum_nums = sum_nums + i
-    print(f"temp sum: {sum_nums:4d}, temp counter: {i:4d}")
+    SUM_NUMS = SUM_NUMS + i
+    #print(f"temp sum: {SUM_NUMS:4d}, temp counter: {i:4d}")
     i = i + 1  # update counter
 
 # print the sum
-print("The sum is:", sum_nums)
+print("The sum is:", SUM_NUMS)

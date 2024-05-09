@@ -1,7 +1,9 @@
-#                           ---Petlje---
+'''
+                        ---Petlje---
 
-# Petlje koristima kada u nekom programu jednu ili više naredbi
-# trebamo izvršiti nekoliko puta.
+Petlje koristima kada u nekom programu jednu ili više naredbi trebamo
+izvršiti nekoliko puta.
+'''
 
 # Primjer: Napisati program koji na ekran 100 puta ispisuje poruku
 # "Programski jezik Python".

@@ -1,4 +1,4 @@
-#                           ---Naredbe grananja (if iskazi)---
+#                   ---Naredbe grananja (if iskazi)---
 '''
 if uslov:
     # blok naredbi

@@ -1,5 +1,7 @@
-# Sa tastature se unose tri cijela broja. Na ekranu ispisati
-# najveći od unesenih brojeva.
+'''
+Sa tastature se unose tri cijela broja.
+Na ekranu ispisati najveći od unesenih brojeva.
+'''
 
 a = int(input("Unesite prvi broj:  "))
 b = int(input("Unesite drugi broj: "))
