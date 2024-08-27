@@ -1,4 +1,6 @@
-# Zadatak 4
+'''
+    ~ Zadatak 4 ~
+'''
 # Zadatak na str. 49 / Knjiga - Practical Programming:
 # An Introduction to Computer Science Using Python 3.6
 # > Designing Three Birthday-Related Functions
