@@ -1,0 +1,60 @@
+Fri 30 Aug 2024 09:50:29 PM CEST
+
+
+~ Vjezbe 03 | Ouputs
+
+[dragancajic@fedora 03]$ python primjer01.py
+i = 0
+        j = 0   j = 1   j = 2   j = 3   j = 4 
+i = 1
+        j = 0   j = 1   j = 2   j = 3   j = 4 
+i = 2
+        j = 0   j = 1   j = 2   j = 3   j = 4 
+i = 3
+        j = 0   j = 1   j = 2   j = 3   j = 4 
+i = 4
+        j = 0   j = 1   j = 2   j = 3   j = 4 
+[dragancajic@fedora 03]$ _
+
+
+Unesite duzinu katete: 10
+*         
+**        
+* *       
+*  *      
+*   *     
+*    *    
+*     *   
+*      *  
+*       * 
+**********
+[dragancajic@fedora 03]$ python zadatak03.py 
+Unesite duzinu katete: 5
+*    
+**   
+* *  
+*  * 
+*****
+[dragancajic@fedora 03]$ _
+
+
+dragancajic@ubuntu:~/Devs/pmfbl/pp/03$ cd /home/dragancajic/Devs/pmfbl/pp/03
+/bin/python3.12 /home/dragancajic/Devs/pmfbl/pp/03/zadatak03.py
+dragancajic@ubuntu:~/Devs/pmfbl/pp/03$ /bin/python3.12 /home/dragancajic/Devs/pmfbl/pp/03/zadatak03.py
+Unesite duzinu katete: 4
+*   
+**  
+* * 
+****
+dragancajic@ubuntu:~/Devs/pmfbl/pp/03$ /bin/python3.12 /home/dragancajic/Devs/pmfbl/pp/03/zadatak03.py
+Unesite duzinu katete: 2
+* 
+**
+dragancajic@ubuntu:~/Devs/pmfbl/pp/03$ /bin/python3.12 /home/dragancajic/Devs/pmfbl/pp/03/zadatak03.py
+Unesite duzinu katete: 1
+*
+dragancajic@ubuntu:~/Devs/pmfbl/pp/03$ /bin/python3.12 /home/dragancajic/Devs/pmfbl/pp/03/zadatak03.py
+Unesite duzinu katete: -2
+dragancajic@ubuntu:~/Devs/pmfbl/pp/03$ /bin/python3.12 /home/dragancajic/Devs/pmfbl/pp/03/zadatak03.py
+Unesite duzinu katete: 0
+dragancajic@ubuntu:~/Devs/pmfbl/pp/03$ clear
