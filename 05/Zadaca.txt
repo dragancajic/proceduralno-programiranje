@@ -1,0 +1,7 @@
+1. Sa tastature se unosi rečenica. Za svako slovo unesene
+recenice ispisati koliko se ono puta pojavljuje u rečenici.
+
+2. Sa tastature se unose cijeli brojevi. Unos se prekida kada se
+jedan isti broj unese 4 puta. Za svaki uneseni broj ispisati
+u kojoj je iteraciji unesen. U slučaju da je neki broj unesen više
+puta ispisati sve iteracije u kojima je unesen.
