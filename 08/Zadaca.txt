@@ -1,0 +1,50 @@
+1. Napisati program koji izdvaja različite riječi
+iz HTML datoteke. Ignorisati sadržaj zadat između oznaka <>.
+Primjer HTML datoteke:
+
+<html>
+    <head>
+        <title>Jednostavan HTML dokument</title>
+    </head>
+    <body>
+        <p> Prvi paragraf.</p>
+        <p>Drugi paragraf!</p>
+    </body>
+</html>
+
+2. Napisati program koji pronalazi i ispisuje
+sve nekorektne e-mail adrese iz zadatate datoteke mejlovi.txt.
+Smatrati da korektna adresa ima oblik local@domain pri čemu važi
+sljedeće:
+    Oba dijela adrese (local i domain) smiju da sadrže slova, brojeve, tačke,
+        crtice i pluseve
+    Oba dijela adrese moraju da počinju slovom
+    Prvi dio (local) ne smije da ima više od 64 karaktera
+    Drugi dio (domain) mora da se završi tačkom praćenom sa dva ili tri slova
+Primjer datoteke:
+
+fica@student.etf.rs
+dora.gmail.com
+5a5a@yahoo.com
+pavlovic.tea@student.etf.bg.ac.rs
+i++@yahoo.com
+jela_petrovic@gmail.com
+a"b(c)d,e:f;g<h>i[j\k]l@etf.rs
+d@j.edu
+f121p-h0m3@dva+2.mkv
+aleksandar@mail.mp3
+a123456785678901234567890123436++@etf.bg.ac.rs
+
+3. Napisati program koji rangira korisnike po vremenu provedenom u video
+razgovorima na nekoj socijalnoj mreži.
+Korisnici se rangiraju u nerastućem redoslijedu.
+Dostupna je datoteka koja sadrži podatke o video razgovorima na toj socijalnoj
+mreži.
+Svaki red sadrži imena korisnika (dva ili više), datum razgovora (dd.mm.gggg.)
+i vremenski interval trajanja razgovora (hh:mm-hh:mm).
+Podaci su međusobno odvojeni razmacima.
+Primjer datoteke razgovori.txt
+
+Fica Tea Sasa 01.11.2019. 10:11-11:02
+Sasa Fica 01.11.2019. 05:00-05:15
+Tea Fica Jela 10.12.2019. 12:03-15:47

@@ -1,0 +1,9 @@
+soba, dvokrevetna: 220
+soba, jednokrevetna: 250
+masaza, relax : 50
+masaza, antistres : 90
+sauna, finska sauna:70
+sauna, parna sauna: 80
+sauna, infracrvena:    150
+bazen, djeciji: 15
+bazen, olimpijski: 25

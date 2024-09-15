@@ -1,0 +1,12 @@
+1. Napisati rekurzivnu funkciju koja za argumente uzima dva prirodna broja m i n,
+a kao rezultat vraca m^n.
+
+2. Napisati rekurzivnu funkciju koja racuna NZS dva prirodna broja.
+
+3. Napisati rekurzivnu funkciju koja provjerava da li je broj palindrom.
+
+4. Napisati rekurzivnu funkciju koja racuna sumu cifara prirodnog broja.
+
+5. Napisati rekurzivnu funkciju koja pronalazi najveci element liste.
+
+6. Napisati rekurzivnu funkciju koja racuna proizvod dva broja.

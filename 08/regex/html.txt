@@ -1,0 +1,9 @@
+<html>
+    <head>
+        <title>Jednostavan HTML dokument</title>
+    </head>
+    <body>
+        <p> Prvi paragraf.</p>
+        <p>Drugi paragraf!</p>
+    </body>
+</html>

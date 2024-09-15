@@ -1,0 +1,12 @@
+Zadatak 1
+
+python zad1.py -i hotel.txt -o izlaz.txt -z 1
+python zad1.py -i hotel.txt -o izlaz.txt -z 2
+python zad1.py -i hotel.txt -o izlaz.txt -z 3
+
+
+Zadatak 2
+
+Unos:
+AaZz4 abC8 ZzZz 231
+

@@ -1,0 +1,6 @@
+1. Napisati program koji racuna sumu pozitivnih i sumu negativnih brojeva u datoj listi.
+
+2. Napisati program koji obrce redoslijed slova u listi stringova.
+Primjer:
+    Original lista: ['Crvena', 'Zelena', 'Plava', 'Bijela', 'Crna']
+    Obrnute riječi: ['anevrC', 'aneleZ', 'avalP', 'alejiB', 'anrC']

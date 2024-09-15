@@ -1,0 +1,5 @@
+Volkswagen, Golf 5: 8000 
+Opel, Astra: 5000
+Toyota, Supra: 3000
+Volkswagen, Golf 3: 7000
+Opel, Astra: 5000

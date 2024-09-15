@@ -1,0 +1,6 @@
+1.  Napisati funkciju koji pronalazi sve podstringove datog stringa,
+    ali tako da oni budu poredani leksikografski neopadajuce.
+
+2. Napisati program koji provjerava da li u listi L postoji podlista l 
+    takva da je suma njenih elemenata jednaka k. Ukoliko takava podlista
+    postoji ispisati je na ekran.

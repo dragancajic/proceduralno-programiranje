@@ -1,0 +1,1406 @@
+commit 6285ff24bde13937d63c806447ddfb550f0cc275
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Wed Aug 28 23:05:15 2024 +0200
+
+    `VJEZBE 02` + `Pylint` ✔️ :checkered_flag:
+    
+    › `sys` module
+    • `sys` module • Spyder IDE 5.5.3 Help √
+    This module provides access to some objects used or maintained by the interpreter
+    and to functions that interact strongly with the interpreter.
+    
+    ``` python
+    '''
+    Na realnoj pravoj dat je interval [a, b].
+    Napisati program koji ispisuje dužinu podintervala koji se nalazi
+    na pozitivnom dijelu prave.
+    '''
+    import sys  # YES! √
+    
+    a = float(input("Unesite a: "))
+    b = float(input("Unesite b: "))
+    
+    if a >= b:
+        '''exit("Niste unijeli korektan interval")  # NameError: name 'exit' is not defined'''
+        sys.exit("Niste unijeli korektan interval")
+    
+    if b >= 0:
+        if a >= 0:
+            print(f"Duzina pozitivnog dijela intervala je {b-a}.")
+        else:
+            print(f"Duzina pozitivnog dijela intervala je {b}.")
+    else:
+        print("Citav interval se nalazi na negativnom dijelu prave")
+    
+    ```
+
+commit 46630d73c3cacba09ff05bf1b6ae95c777913bd4
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Tue Aug 27 23:37:44 2024 +0200
+
+    ~ Uradi `zadacu` :checkered_flag:
+
+commit 8c6e34b2a272eddaa4098e9e8784374bbd2d95ef
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Thu Jun 6 19:36:21 2024 +0200
+
+    ~ dodaj `kod` iz udzbenika :open_book: :books: :keyboard:
+    
+    ■ prof. Marko Đukanović, docent:
+      „Osnovne algoritamske paradigme kroz programski jezik Pajton“, januar 2024.
+    
+    SVA PRAVA PRIPADAJU AUTORU DJELA:
+    © prof. Marko Đukanović, docent
+
+commit c0f49c071b81a68675ced7bc042e2b7caa8c3a9f
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Thu May 9 19:05:33 2024 +0200
+
+    ~ `Predavanja 02` (primjeri) + `Vjezbe 02` + `Pylint`
+    
+    » у кôд уграђене препоруке `Pylint`-ера! :grin: :nerd_face: ✔️
+    
+    » Spyder IDE 5.5.3 ➔ Pylint: Run CODE analysis (F8) 👀 👁️  🤓
+    
+    » VSCode 1.79.2 ➔ Pylint v2023.10.1 by Microsoft
+    ~ Linting support for Python files using Pylint.
+
+commit e3d05fc18802980f04464173ae9f0687ef7d4ba4
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Sat Apr 27 08:42:30 2024 +0200
+
+    ~ `Predavanja 01` (primjeri) + `Vjezbe 01` + `Pylint`
+    
+    » у кôд уграђене препоруке `Pylint`-ера! :grin: :nerd_face: ✔️
+    » Spyder IDE 5.5.3 ➔ Pylint: Run CODE analysis (F8) 👀 👁️  🤓
+    
+    Source ➔ Run code analysis ~ `F8`
+
+commit 1b86a60096015a710565e7aa699e79924d7f50ac
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Fri Apr 12 21:10:51 2024 +0200
+
+    ~ `Predavanja 02` (primjeri) + `Vjezbe 02`
+    
+    • ТИПОВИ ПОДАТАКА у Пајтону             √
+    • DATA STRUCTURES in Python             √
+    • `sys` module • Spyder IDE 5.5.3 Help  √
+    
+    » TODO: угради у кôд препоруке `Pylint`-ера! :grin: :nerd_face:
+    » Spyder IDE 5.5.3 ➔ Pylint: Run analysis (F8) 👀 👁️  🤓
+
+commit d9fa21c43ecb2abceee4d385ee461759362b15bc
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Thu Apr 4 05:48:50 2024 +0200
+
+    Update README.md
+
+commit 4ea9230fed2db2307b02d9ffd0182f24c9749c76
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Thu Apr 4 04:57:43 2024 +0200
+
+    ~ `Predavanja 06` (primjer) + `Vjezbe 06`
+    
+    » TODO: угради у кôд препоруке `Pylint`-ера! :
+    
+    ▪ Pylint 3.1.0 documentation
+    https://pylint.readthedocs.io/en/stable/
+    
+    § What is Pylint?
+    
+    **Pylint** is a static code analyser for Python 2 or 3. The latest version supports Python 3.8.0 and above.
+    https://en.wikipedia.org/wiki/Static_code_analysis
+    
+    Pylint analyses your code without actually running it. It checks for errors, enforces a coding standard,
+    looks for _code smells_, and can make suggestions about how the code could be refactored. :slightly_smiling_face:
+    https://martinfowler.com/bliki/CodeSmell.html
+    
+    » WordWeb 10.37 √
+    https://wordweb.info/free/
+    
+    Noun: lint
+    3. (computer programming) a tool that analyses source code to flag logic errors, inconsistencies, stylistic errors,
+    suspicious and deprecated constructs, etc.
+    
+    Verb: lint
+    1. (computer programming) check source code for errors using a linter
+    "before making a commit or pull request, you should lint your code" √
+
+commit 577c18a4c411167448e3a5fd62315ca0a44f6a4e
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Thu Mar 28 22:00:29 2024 +0100
+
+    ~ `Predavanja 01` (primjeri) + `Vjezbe 01`
+    
+    » 8-03 Reference: Python String Methods | W3Shools :snake:
+    https://www.w3schools.com/python/python_ref_string.asp
+    
+    Python has a set of built-in methods that you can use on strings. ✔️
+    
+    ⚠️ **Note:** All string methods returns new values. They DO NOT CHANGE the original STRING. ⚠️
+
+commit 549de3a401b6da417ea3a08735e2eee71d70a349
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Mon Jan 29 14:21:34 2024 +0100
+
+    ~ proVJEZBAJ `Vjezbe 6: Obrada datoteka` :file_folder: :briefcase: :bar_chart: :computer: :card_file_box:
+    
+    > citanje-pisanje.py, linija-teksta.py, linije-teksta.py, `nacini-citanja.py`, obrada-datoteka.ipynb, :open_file_folder: :file_cabinet:
+      planete.py, prvih10slova.py, radni-direktorij.py, stringio-primjer.py, zadaci-datoteke.ipynb; zadatak-3.py; :memo: :pencil2:
+    > Zadatak 1-4 + `nacini-citanja.py` | пет (5) комаТа/задатака :satisfied: :rofl:
+    
+    ● Pristup datoteci možemo realizovati na više načina.
+    
+    U svakom slučaju je potrebno koristiti ugrađenu funkciju `open`.
+    Ova ugrađena funkcija ima više opcionih parametara.
+    
+    Dovoljno je poznavati prva dva parametra ove funkcije. √
+    
+    Prvi parametar je naziv datoteke kojoj se pristupa, odnosno lokalna putanja do spomenute datoteke.
+    Drugi parametar je môd:
+    
+    "w" - znači da se pristupa daototeci zbog upisivanja u datoteku. Kreira novu datoteku.(`write`)
+          Ukoliko postoji datoteka sa istim imenom, briše je (datoteku) i kreira novu! :eyes:
+    "a" - znači da se pristupa datoteci zbog dopisivanja u datoteku ("a" je skraćenica od `append`).
+          Ukoliko postoji datoteka sa navedenim imenom, dopisuje na postojeći sadržaj. :eyes:
+          U suprotnom, kreira novu datoteku sa navedenim imenom.
+    "r" - znači čitanje sadržaja datoteke.
+    
+    Postoji još raznih modova, ali za naše potrebe su dovoljna nevedena tri moda / начина рада.
+    
+    Zatim, možemo koristiti rezervisanu riječ `with`.
+    Nema značajne razlike između pristupa datoteci koristeći i ne koristeći rezervisanu riječ `with`.
+    Kada se NE KORISTI rezervisana riječ `with`, potrebno je eksplicitno zatvoriti datoteku! :eyes:
+    
+    › Kako upisivati tekst u više linija?
+    
+    ``` python
+    filename2 = "datoteka02.txt"
+    f = open(filename2, "a")
+    linija = input("Unesite tekst: ")
+    while linija.strip() != "":
+        f.write(linija)
+        f.write("\n")
+        linija = input("Unesite tekst: ")
+    f.close()
+    ```
+    
+    filename = input("Ime datoteke: ")  # не би лоше било додати `.txt` екстензију типа датотеке √
+    filename += ".txt"  # пробај да добијеш назив датотеке са екстензијом, да не буде нпр. `slova`
+    
+    ∗ ord('a') -> 97, ord('A') -> 65 √
+    ∗ ord('z') -> 122 = 96 + 26 слова енглеског алфабета √ :wink:
+    
+    ● Начини читања датотеке
+    
+    :one: prvi (I) način: čitanje `linija po linija`
+    `linija = f.readline()  # (method) def readline(__size: int = -1) -> str`
+    
+    :two: drugi (II) način: čitanje cijelog sadržaja
+    `sadrzaj = f.read()  # (method) def read(__size: int | None) -> str`
+    
+    :three: treći (III) način: čitanje sadržaja svih linija
+    linije = f.readlines()  # (method) def readlines(__hint: int = -1) -> list[str]
+    
+    ~ metoda `seek(int)` -> енгл. whence [formal]:
+    `From what place or origin or source` == (synonym) wherefrom [archaic].
+    
+    ``` python
+    '''`pokazivač` se nalazi na početku sadržaja fajla, jer još uvijek ništa iz datoteke'''
+    '''nije pročitano; pomoću metode `seek()` se pokazivač pomjera na 5. poziciju :eyes:'''
+    with open(filename01, 'r') as f:
+        f.seek(5)  # (method) def seek(__cookie: int, __whence: int = 0) « LOOK! :eyes:
+        sadrzaj = f.read()
+        print(sadrzaj)
+    ```
+    
+    Zadatak 3 | ПРЕЛИЈЕП ЗАДАТАК √ :sparkling_heart: :heartpulse: :gift_heart:
+    
+    lista = [k for k in range(2, n+1) if n % k == 0 and slozeni_broj(k)]  # NICE! List Comprehension √
+    
+    '''učitani brojevi su stringovi, iz tog razloga ih pretvaramo u integer-e! :eyes: √'''
+    brojevi = [int(broj) for broj in brojevi]
+    
+    Zadatak 4 - Domaći -> TODO: ОБАВЕЗНО ПОГЛЕДАЈ :eyes: `Zadatak 8 - rad sa datotekama` [chdir('..')] √ :warning:
+    :top: :top: :top: :arrow_up: :arrow_up: :arrow_up:
+    
+    ~-~-~-~-~-~-
+    
+    ■ Основе програмирања на Пајтону © 2024 Милош А. Ковачевић :snake: :sparkling_heart: :brain: :gear: :heavy_check_mark:
+    https://www.grf.bg.ac.rs/~milos/main2.pdf :eyes: :runner: :checkered_flag: :martial_arts_uniform: JuDo 柔道 :smile: :wink:
+    https://www.grf.bg.ac.rs/~milos/images/banner-images/bookCoverMarko1.png
+
+commit d5a982c502f127f6da3ad0f161f167ceec164920
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Sun Jan 28 20:30:42 2024 +0100
+
+    ~ proVJEZBAJ `zadaci-6` :keyboard: :1234: :abcd: :spiral_notepad: :computer:
+    
+    > zadaci-6.ipynb; zadatak-4.py; zadatak-8.py; :memo: :pencil2:
+    > Zadatak 1-8 | осам (8) комаТа/задатака :satisfied: :rofl:
+    
+    ■ Основе програмирања на Пајтону © 2024 Милош А. Ковачевић :snake: :sparkling_heart: :brain: √
+    https://www.grf.bg.ac.rs/~milos/main2.pdf
+    https://www.grf.bg.ac.rs/~milos/images/banner-images/bookCoverMarko1.png
+    
+    ■ Основе програмирања на Пајтону © 2021 Милош А. Ковачевић :snake: √
+    https://www.grf.bg.ac.rs/~milos/opp_e101.pdf
+    
+    ■ Електронски курс за програмски језик Пајтон | Математички факултет у Београду
+    https://www.edusoft.matf.bg.ac.rs/python/
+    
+    ■ Методичка збирка задатака из основа програмирања (Python) | Petlja :brain:
+    https://petlja.org/biblioteka/r/kursevi/Zbirka-python
+    https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/Zbirka-python/Zbirka1py.pdf
+    
+    ● Димитрије Д. Чвокић - Увод у организацију и архитектуру рачунара 2 :package: :spider_web: :snake: :thinking:
+    https://sites.google.com/site/chwokitch/matematika-i-informatika/uvod-u-rachunarstvo-ii
+
+commit 1d90eb003b09bcfdf91c9b6c42c5ecbb15cc2e11
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Sat Jan 27 20:42:53 2024 +0100
+
+    ~ `proUCI`/study `vjezbe-6` :goggles: :microscope: :lab_coat:
+    
+    > primjer-1.py; primjer-2.py; primjer-3.py; primjer-4.py; primjer-5.py; vjezbe-6.ipynb
+    
+    ■ Модули `math` и `random`:
+    
+    » `random.choice(ime)`
+    Choose a random element from a non-empty sequence.
+    
+    » `random.choices(lista, weights = [10, 1, 1], k = 14)`
+    Return a k sized list of population elements chosen with replacement.
+    If the relative weights or cumulative weights are not specified, the selections are made with equal probability.
+    
+    » random.shuffle(lista)
+    
+    """
+    (variable) def shuffle(
+        x: MutableSequence[Any],
+        random: (() -> float) | None = None
+    ) -> None
+    
+    Shuffle list x in place, and return None.
+    
+    Optional argument random is a 0-argument function returning a random float in [0.0, 1.0);
+    if it is the default None, the standard random.random will be used.
+    """
+    
+    Reorganizuje red elemenata u listi.
+    ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+    енгл. `shuffle`
+    verb: Mix so as to make a random order or arrangement
+    "shuffle the cards"
+    noun: The act of mixing cards haphazardly
+    
+    » random.sample(lista, k = 2)
+    
+    """
+    (variable) def sample(
+        population: Sequence[_T@sample] | AbstractSet[_T@sample],
+        k: int,
+        *,
+        counts: Iterable[int] | None = None
+    ) -> list[_T@sample]
+    Chooses k unique random elements from a population sequence or set.
+    
+    Returns a new list containing elements from the population while leaving the original population unchanged.
+    The resulting list is in selection order so that all sub-slices will also be valid random samples.
+    This allows raffle winners (the sample) to be partitioned into grand prize and second place winners (the subslices).
+    
+    Members of the population need not be hashable or unique.
+    If the population contains repeats, then each occurrence is a possible selection in the sample.
+    
+    Repeated elements can be specified one at a time or with the optional counts parameter. For example:
+    
+        sample(['red', 'blue'], counts=[4, 2], k=5)
+    
+    is equivalent to:
+    
+        sample(['red', 'red', 'red', 'red', 'blue', 'blue'], k=5)
+    
+    To choose a sample from a range of integers, use range() for the population argument.
+    This is especially fast and space efficient for sampling from a large population:
+    
+        sample(range(10000000), 60)
+    """
+    
+    » random.range(start, stop[, step])
+    
+    ``` python
+    import random
+    
+    print(random.randrange(1, 5))       # 1, 2, 3, 4 <-- [1, 5)  korak 1
+    print(random.randrange(2, 10, 3))   # 2, 5, 8    <-- [2, 10) korak 3
+    print(random.randrange(20, 50, 3))  # [20, 50) korak 3
+    ''' 20, 23, 26, 29, ..., 32, 35, ..., 38, 41, 44, ..., 47 √ '''
+    ```
+    
+    """
+    (variable) def randrange(
+        start: int,
+        stop: int | None = None,
+        step: int = 1
+    ) -> int
+    Choose a random item from range(start, stop[, step]).
+    
+    This fixes the problem with randint() which includes the endpoint; in Python this is usually not what you want.
+    """
+    
+    ■ Рад са датотекама / Обрада датотека
+    ● Рад са датотекама: вјежбе УОАР2 ●
+    
+    ■ Изузеци - једноставни примјери -
+    
+    › Python Exceptions and Errors – PYnative
+    https://pynative.com/python-exceptions/
+    
+    » IndentationError: unexpected indent <---------------------------------- `IndendationError`
+    » NameError: name 'c' is not defined  <---------------------------------- `NameError`
+    » FileNotFoundError: [Errno 2] No such file or directory: 'test.txt' <--- `FileNotFoundError`
+    » ZeroDivisionError: division by zero <---------------------------------- `ZeroDivisionError`
+    
+    » `try ... except`
+    
+    » `try ... except` sa više opcija za `except` <-------------------------- `ValueError`
+    
+    ``` python
+    try:
+        a = int(input("Unesi vrijednost za a: "))  # a = 10
+        b = int(input("Unesi vrijednost za b: "))  # b = 4
+        c = a / b
+        print("a podijeljeno sa b je:", c)  # a podijeljeno sa b je: 2.5
+    except ValueError:
+        print("Unesena vrijednost je pogresna!")  # a = 10, b = a
+    except ZeroDivisionError:                     # a = 10, b = 0
+        print("Dijeljenje (sa) nulom nije dozvoljeno! Unesite drugi broj.")
+    
+    ```
+    
+    » dva izuzetka u jednoj klauz(ul)i
+    
+    ``` python
+    try:
+        a = int(input("Unesite vrijednost za a: "))  # a = 10
+        b = int(input("Unesite vrijednost za b: "))  # b = 4
+        c = a / b
+        print("a podijeljeno sa b je:", c)  # a podijeljeno sa b je: 2.5
+    except(ValueError, ZeroDivisionError):
+        print("Unesite odgovarajuce vrijednosti.")  # a = 10, b = 'ŠNJ' ILI a = 10, b = 0
+    
+    ```
+    
+    » `try ... except ... else`
+    
+    ``` python
+    try:
+        a = int(input("Unesite vrijednost za a: "))
+        b = int(input("Unesite vrijednost za b: "))
+        c = a / b
+        print("a / b =" , c)        # a / b = 0.8333333333333334
+        print(f"a / b = {c:0.3f}")  # a / b = 0.833 √
+    
+    except ZeroDivisionError:
+        print("Dijeljenje (sa) nulom nije dozvoljeno!")
+    else:
+        print("U else bloku moze da se nastavi sa pisanjem koda, ako se ne desi izuzetak.")
+    
+    ```
+    
+    ▪ `try ... except ... else` - ako se desi izuzetak
+    
+    ``` python
+    try:
+        a = int(input("Unesite vrijednost za a: "))  # a = 5
+        b = int(input("Unesite vrijednost za b: "))  # b = 0
+        c = a / b
+        print("a / b =" , c)
+    
+    except ZeroDivisionError:
+        print("Dijeljenje (sa) nulom nije dozvoljeno!")
+    else:
+        print("U else bloku moze da se nastavi sa pisanjem koda, ako se ne desi izuzetak.")
+    
+    ```
+
+commit db5516c4ae09f9126510ab6b95be10c9f5317b97
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Fri Jan 26 20:16:31 2024 +0100
+
+    ~ proVJEZBAJ `zadaci-5` :keyboard: :1234: :abcd: :spiral_notepad: :computer:
+    
+    > zadaci-5.ipynb; zadatak-4.py; zadatak-6.py; zadatak-7.py; zadatak-8.py; zadatak-9.py :memo: :pencil2:
+    > Zadatak 1-9 | девет (9) комаТа/задатака :satisfied: :rofl:
+    
+    ■ Z1 сума позитивних и сума негативних бројева дате листе: `sum(list(filter(lambda...`;
+    ■ Z2 одстранити нежељене вриједности из листе: return `list(filter(lambda...` из `def bez_none(lista):`;
+    ■ Z3 испис → елемент и број појављивања у листи: return `dict(map(lambda...` из `def broj_pojavljivanja(lista):`;
+    ■ Z4 обртање редослиједа слова у листи ниски карактера/стрингова: return `list(map(lambda...` из `def reverse_string(L):`;
+    
+    ``` python
+    '''Program koji obrće redoslijed slova u listi stringova.'''
+    
+    def obrni_slova_niski_liste(lista_niski):
+        lista_obrnutih_slova = list(map(lambda niska: "".join(reversed(niska)), lista_niski))
+        return lista_obrnutih_slova
+    
+    boje = ["Crvena", "Zelena", "Plava", "Bijela", "Crna"]
+    print("Original lista niski:")
+    print(boje)
+    print("\nObrnute rijeci liste:")
+    print(obrni_slova_niski_liste(boje))
+    ```
+    """
+    output:
+    
+    Original lista:
+    ['Crvena', 'Zelena', 'Plava', 'Bijela', 'Crna']
+    
+    Obrnute rijeci:
+    ['anevrC', 'aneleZ', 'avalP', 'alejiB', 'anrC']
+    """
+    
+    ■ Z5 брисање елемената листе који се налазе у другој листи: return `list(filter(lambda...` из `def obrisi_elemente(L1, L2):`;
+    ■ Z6 испис листе највеће и најмање дужине из листе листи: return `(min_len/max_len, min_list/max_list)` из `def min_/max_(L):`;
+    ■ Z7 `najduza_rijec(recenica):` → `filter(lambda recenica: if... else, recenice)` → `for recenica in recenice: print(recenica)`;
+    
+    from functools import reduce  # TODO: пробај "упослити" `reduce`! ;-)
+    
+    ■ Z8 број непарних бројева у листи користећи `reduce` → `if broj % 2`  # broj % 2 != 0 <-- дакле, НЕПАРАН! `True`
+    
+    ``` python
+    from functools import reduce
+    
+    brojevi = [22, 12, 13, 32, 11, 44, 94, 78, 99]
+    rezultat = reduce(lambda broj_neparnih, broj:
+                      broj_neparnih + 1
+                          if broj % 2  # ако је непаран има остатак дијељења! -> True
+                          else broj_neparnih,
+                      brojevi,
+                      0)  # иницијална вриједност
+    
+    print (rezultat)  # 3
+    
+    '''РЈЕШЕЊЕ без употребе функције `reduce`'''
+    brojac = 0
+    for broj in brojevi:
+        if broj % 2:  # broj % 2 != 0 <-- дакле, НЕПАРАН! `True`
+            brojac = brojac + 1
+        #print("tBrojac:", brojac)
+    
+    print("Broj neparnih:", brojac)
+    ```
+    
+    ■ Z9 збир цифара свих бројева из листе
+    
+    from functools import reduce  # TODO: пробај "упослити" `reduce`! ;-)
+
+commit 2780915fc795e729d61797fd8999fc000487d61b
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Thu Jan 25 12:04:04 2024 +0100
+
+    ~ `proUCI`/study `vjezbe-5` :goggles: :microscope: :lab_coat:
+    
+    > map-sa-vise-param.py; obuhvatanje-listom.py; vjezbe-5.ipynb; zadaci-za-vjezbu.py
+    
+    ■ `List Comprehension` [обухватање листом / укључивање у листу] √
+    
+    ■ `Lambda` функције: анонимне функције vs. функције дефинисане помоћу кључне ријечи `def`
+    
+    :smile: Nadrealisti - Anonimnost :wink:
+    https://youtu.be/glZEVkBQzYM?t=86
+    
+    • Karakteristike Lambda funkcija u Pajtonu:
+    
+    - Lambda функције могу да имају више аргумената, али враћају само једну вриједност.     √
+    - Lambda функције се пишу у једном реду и стога не могу садржавати вишелинијске изразе. √
+    - Lambda ИЗРАЗИ могу бити аргументи за друге функције.                                  √
+    - Lambda функције немају експлицитно наведен `return` исказ ...                         √
+    
+    • `Nested Lambda` - lambda funkcija u lambda funkciji
+    
+    ``` python
+    add = lambda a = 20: lambda b: a + b
+    x = add()
+    '''x = add(30)  # умјесто подразумијеване вриједности a = 20, користи се задата вриједност 30'''
+    
+    print(x(30))  # 20 + 30 = 50
+    print(x(25))  # 20 + 25 = 45
+    ```
+    
+    • `Nested Lambda` - primjer
+    
+    ``` python
+    def myfunc(n):
+        return lambda a: a * n
+    
+    mydoubler = myfunc(2)
+    print(mydoubler(11))  # 11 * 2 = 22
+    ```
+    
+    ■ Map, Filter i Reduce
+    
+    Map, Filter i Reduce su funkcije koje omogućavaju programeru jednostavnije i kraće pisanje koda.
+    
+    U suštini, ove tri funkcije omogućavaju primjenu na veliki broj iterabli, jednim potezom.
+    Funkcije `map` i `filter` su ugrađene u Pajton i ne zahtijevaju importovanje iz nekog modula,
+    dok funkciju `reduce` moramo importovati iz `functools` modula. √
+    
+    ● Funkcija `map()` u Pajtonu ima sljedeću sintaksu:
+    
+    `map(func, *iterables)`
+    
+    gdje je `func` funkcija kojoj se šalje SVAKI ELEMENT iterabilnog objekta.
+    Primijetimo `*` ispred iterabilnog objekta za mapiranje. <-- LOOK! :eyes:
+    
+    ~ Napomena:
+    • U Pajtonu 2, `map()` funkcija vraća listu.
+    • U Pajtonu 3, funkcija vraća `map` objekat.
+    Da bismo u rezultatu dobili listu, ugrađena `list()` funkcija se pozove na `map` objekat,
+    npr.
+    
+    `list(map(func, *iterables))`
+    
+    Broj argumenata funkcije `func` mora biti isti kao broj iterabli. √ :thinking:
+    
+    o Slučaj kada funkcija `map` ima više argumenata
+    
+    podaci = [3.56773, 5.57668, 4.00914, 56.24241, 9.01344, 32.00013]
+    rezultat = list(map(round, podaci, range(1, 7)))
+    print(rezultat)  # [3.6, 5.58, 4.009, 56.2424, 9.01344, 32.00013]
+    
+    '''трећи параметар/аргумент -> range(1, 3)'''
+    rezultat = list(map(round, podaci, range(1, 3)))  # узми САМО елементе [1, 2], тј. [1, 3)
+    print(rezultat)  # [3.6, 5.58]
+    
+    ``` python
+    slova = ['a', 'b', 'c', 'd', 'e', 'f']
+    brojevi = [1, 2, 3, 4, 5]
+    
+    '''Број аргумената функције `func` мора бити исти као број итерабли. √ :thinking: A-HA'''
+    rezultat = list(map(lambda x, y: (x, y), slova, brojevi))  # упари елементе 2 листе у `tuple`
+    
+    print(rezultat)  # [('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5)]
+    ```
+    
+    ● Funkcija `filter()` zahtijeva od funkcije da vrati LOGIČKE VRIJEDNOSTI (True ili False),
+    a zatim prosljeđuje svaki element iz iterabli u funkciju i FILTRIRA one koji su netačni.
+    
+    Sintaksa funkcije je:
+    
+    `filter(fun, sequence)`
+    
+    gdje je
+    
+    `fun`: funkcija koja uzima element iterabilnog objekta i vraća `True` ili `False`;
+    `sequence`: iterabilni objekat koji treba biti filtriran.
+    
+    Vraća: iterator koji je filtriran.
+    
+    ``` python
+    bodovi = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
+    
+    def polozeno(n):
+        return n > 75
+    
+    dobre_ocjene = list(filter(polozeno, bodovi))
+    print(dobre_ocjene)  # [90, 76, 88, 81]
+    
+    '''Ispisati riječi koje su palindromi'''
+    
+    rijeci = ("danas", "ana", "madam", "anavolimilovana", "auta", "kiosk")
+    palindromi = list(filter(lambda rijec: rijec == rijec[::-1], rijeci))
+    print(palindromi)  # ['ana', 'madam', 'anavolimilovana']
+    
+    '''Izdvojiti parne brojeve iz liste'''
+    
+    li = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    rezultat = list(filter(lambda x: (x % 2 == 0), li))
+    print(rezultat)  # [2, 4, 6, 8, 10, 12, 14]
+    ```
+    
+    ● Reduce funkcija je dio `functools` modula.
+    [енгл. `reduce` == срп. свести, смањити, ограничити (на ДВА аргумента!)] √
+    
+    Sintaksa:
+    
+    `reduce(fun, iterable[, initial])`
+    
+    gdje je:
+    
+    `fun`: funkcija DVA ARGUMENTA (tipa elemenata iz seq);
+    `iterable`: iterabilni objekat (niz, lista, tuple itd.);
+    `initial`: opciona vrijednost prije procesa (vraća se ako je `iterable` prazan).
+    
+    ``` python
+    
+    from functools import reduce
+    
+    brojevi = [3, 4, 6, 9, 34, 12]
+    
+    def zbir(a, b):  # ДВА ПАРАМЕТРА / АРГУМЕНТА √
+        return a + b
+    
+    rezultat = reduce(zbir, brojevi)
+    print(rezultat)  # (((((3 + 4) + 6) + 9) + 34) + 12) = 68
+    
+    ''' Inicijalna vrijednost '''
+    
+    from functools import reduce
+    
+    brojevi = [3, 4, 6, 9, 34, 12]
+    
+    def zbir(a, b):
+        return a + b
+    
+    rezultat = reduce(zbir, brojevi, 10)
+    print(rezultat)  # 10 + zbir brojeva iz liste = 78
+    '''10 se uzima za prvi argument funkcije <- LOOK! √'''
+    ```
+    
+    ■ `enumerate` i `sort` funkcija √
+    
+    ■ `zip` funkcija
+    
+    SPAJANJE više iterabilnih OBJEKATA u jedan. :eyes:
+    Vraća: iterabilni objekat koji mapira vrijednosti više objekata.
+    
+    Uloga: čitanje više nizova odjednom; mapira sličan indeks iterabilnih objekata. LOOK! √
+    
+    Sintaksa: `zip(*iterators)`
+    
+    ``` python
+    a = ("Milica", "Ana", "David")
+    b = ("Jelena", "Marija", "Sanja")
+    
+    x = zip(a, b)
+    
+    '''koristiti tuple() funkciju za prikaz rezultata'''
+    print(tuple(x))  # (('Milica', 'Jelena'), ('Ana', 'Marija'), ('David', 'Sanja'))
+    
+    slova = ['a', 'b', 'c']
+    brojevi = [0, 1, 2]
+    
+    for s, b in zip(slova, brojevi):
+        print(f'slovo: {s}')
+        print(f'broj: {b}')
+    ```
+    '''
+    output:
+    
+    slovo: a
+    broj: 0
+    slovo: b
+    broj: 1
+    slovo: c
+    broj: 2
+    '''
+    
+    ■ Zadaci za vježbu
+    
+    o 1. Koristeći `map` funkciju ispisati kvadrat svakog broja iz date liste zaokruzen na tri decimale.
+    
+    lista = [4.35, 6.09, 3.25, 9.77, 2.16, 8.88, 4.59]
+    
+    o 2. Koristeći `filter` funkciju ispisati imena, iz date liste, koja sadrže manje od 7 slova.
+    
+    imena = ["Milica", "Anastasija", "Danijela", "Nikolina", "Ana"]
+    
+    o 3. Koristeći `reduce` funkciju ispisati proizvode brojeva iz liste.
+    brojevi = [4, 6, 9, 23, 5]
+
+commit 889e872baace695e00e447f445896f807139c453
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Sun Jan 21 06:43:00 2024 +0100
+
+    ~ proVJEZBAJ `zadaci-4` :keyboard: :1234: :abcd: :gear: :computer:
+    
+    > zadaci-4.ipynb :memo: :pencil2:
+    > Zadatak 1-7 | седам (7) комаТа/задатака :satisfied: :rofl:
+    
+    ■ Z1 унос листе цијелих бројева → обрада → испис → `dict(ionary)`/хеш-мапа/рјечник бројева и њихових индекса у листи;
+    ■ Z2 унос листе ниски са тастатуре → обрада → испис → хеш-мапа {карактер : број појављивања карактера у листи};
+    ■ Z3 унос листе података о студентима (хеш-мапа) → обрада → испис сортиране `листе хеш-мапа` по задатом критеријуму;
+    ■ Z4 унос природних бројева са тастатуре (листа) → обрада → хеш-мапa `{prost_broj : [lista_unesenih_brojeva_koje_dijeli]}`; :eyes:
+    ■ Z5 унос листе природних бројева дужине бар 3 → обрада → испис рјечника `{uneseni_broj : [lista_njegovih_prostih_faktora]}`;
+    ■ Z6 унос реченице са тастатуре → обрада → испис хеш-мапе/рјечника/dict(ionary) → `{slovo : broj_pojavljivanja_u_recenici}`
+    
+    ``` python
+    podaci = dict(())  # да ли би могло и овако: `podaci = dict()`  # <class 'dict'> :thinking: √
+    ```
+    ■ Z7 унос цифара броја са тастатуре → обрада → испис броја различитих цифара користећи скуп/`set` структуру података
+    
+    ``` python
+    slova = set(())  # да ли би могло и овако: `slova = set()`  # <class 'set'> :thinking: √
+    recenica = "Proceduralno"
+    for slovo in recenica:
+        slova.add(slovo)
+    
+    print("Broj razlicitih slova:", len(slova))  # Broj razlicitih slova: 10 <-- `Prceduraln` √
+    
+    ''' ■ БОНУС ●'''
+    '''dodavanje u heš-mape na drugi način:'''
+    squares = {}  # `type(squares)` --> `<class 'dict'>` LOOK! :eyes: √
+    for x in range(6):
+        squares[x] = x * x
+    print(squares)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25} √
+    ```
+    
+    TODO:
+    
+    ~ Python Create Empty Dictionary [3 Methods] - Python Guides
+    https://pythonguides.com/how-to-create-an-empty-python-dictionary/
+    
+    > Python Dictionary Comprehension [7 Methods] - Python Guides
+    https://pythonguides.com/python-dictionary-comprehension/
+    
+    > Can an empty key be used to insert a value into a dictionary? - Frequently Asked Questions / Python FAQ - Codecademy Forums
+    https://discuss.codecademy.com/t/can-an-empty-key-be-used-to-insert-a-value-into-a-dictionary/352848
+    
+    • Python Challenges | PythonExamples.org :factory_worker: :gear: :wrench: :screwdriver: :brain: :muscle: :weight_lifting: :checkered_flag: √
+    https://pythonexamples.org/challenges/
+
+commit 1a4ea07c49513d165870ed24672e4a61da244512
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Sat Jan 20 16:06:52 2024 +0100
+
+    ~ `proUCI`/study `vjezbe-4` :goggles: :microscope: :lab_coat:
+    
+    > ntorke.py; rjecnici.py; skupovi.py; vjezba.py; vjezbe-4.ipynb
+    
+    ■ Наредба `import` - детаљнија објашњења
+    
+    ■ Скупови, рјечници и n-торке
+    
+    ~-~ Скупови ~-~-
+    
+    ``` python
+    
+    skup = {}  # добије се празан рјечник, не БАШ скуп! --> зато `skup = set()` √
+    print(f"{str(skup):18s} | {type(skup)}")  # {} ...... | <class 'dict'>
+    
+    skup = set()
+    print(f"{str(skup):18s} | {type(skup)}")  # set() ... | <class 'set'>
+    
+    predmeti1 = {
+        'Proceduralno programiranje',
+        'Osnove programiranja 2',
+        'Uvod u veb tehnologije'
+    }
+    predmeti2 = {'IT i društvo', 'Osnove programiranja 2', 'Engleski jezik 1'}
+    
+    print(predmeti1 | predmeti2)  # unija skupova
+    print(predmeti1 & predmeti2)  # presjek skupova
+    ```
+    
+    Nisu dozvoljeni duplikati! <-- LOOK! :eyes:
+    
+    add(val)
+    val in set
+    remove(val)
+    set1.union(set2)          ili   operator `|`   <-- УНИЈА
+    set1.intersection(set2)   ili   operator `&`   <-- ПРЕСЈЕК
+    set1.difference(set2)     ili   operator `-`   <-- РАЗЛИКА СКУПОВА `A\B`
+    
+    Operator `^` <-------- СИМЕТРИЧНА РАЗЛИКА, односно КОМПЛЕМЕНТ ПРЕСЈЕКА √
+    
+    Operatori `>` ili `<` određuju da li je jedan skup NADSKUP ili PODSKUP drugog skupa, respektivno. √
+    clear() ...
+    
+    '''funkcija koja uzima iterabilan objekat i konvertuje ga u `immutable` tip podatka √'''
+    frozenset()
+    
+    ~-~ Рјечници ~-~
+    
+    ``` python
+    
+    '''Ako se želi definisati prazan rječnik, to se radi na način:'''
+    imeRjecnika = {}  # или овако: `prazan_rjecnik = dict()`
+    
+    osoba = {'ime': "Aleksandar", 'prezime': "Kukolj", 'godine': 32}
+    
+    for value in osoba.values():
+        print(value)
+    '''
+    ~ output:
+    ----------
+    Aleksandar
+    Kukolj
+    32
+    ----------
+    '''
+    
+    osoba.update({'zanimanje': "професионални џудиста"})
+    
+    for kljuc, vrijednost in osoba.items():
+        print(f"key = {kljuc}, value = {vrijednost}")
+    '''
+    ~ output:
+    ----------------------------------------------
+    key = ime, value = Aleksandar
+    key = prezime, value = Kukolj
+    key = godine, value = 32
+    key = zanimanje, value = професионални џудиста
+    ----------------------------------------------
+    '''
+    
+    del osoba['godine']
+    [print(f"{kljuc:9s} | {vrijednost:21s} |") for kljuc, vrijednost in osoba.items()]
+    '''
+    ~ output:
+    ~---------------------------------~
+    ime       | Aleksandar            |
+    prezime   | Kukolj                |
+    zanimanje | професионални џудиста |
+    ~---------------------------------~
+    '''
+    
+    """
+    TODO: Learning Material
+    
+    1 ~ Python's F-String for String Interpolation and Formatting - Real Python
+    https://realpython.com/python-f-strings/
+    
+    2 ~ Strings and Character Data in Python - Real Python :eyes:
+    https://realpython.com/python-strings/
+    
+    3 ~ Python String Formatting Best Practices - Real Python
+    https://realpython.com/python-string-formatting/
+    
+    4 | When to Use a List Comprehension in Python - Real Python :eyes:
+    https://realpython.com/list-comprehension-python/
+    """
+    ```
+    
+    ~-~ N-торке ~-~-
+    
+    ``` python
+    
+    '''Ako se želi definisati prazna n-torka, to se radi na način:'''
+    imeNterca = ()  # или овако: `prazna_ntorka = tuple()` √
+    
+    ''' ОПРЕЗ! конструктор tuple(), па тек онда скуп вриједности ("abc", "bb") √ '''
+    ntorka = tuple(("abc", "bb"))
+    '''или'''
+    ntorka = ("abc", "bb")  # √
+    
+    (value1, value2) = ntorka
+    print(value1, value2)  # abc bb
+    ```
+
+commit 6d4dde054f2fc4d06f4dd47f411af0caff9c423c
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Thu Jan 18 13:38:29 2024 +0100
+
+    ~ proVJEZBAJ `zadaci-3` :keyboard: :1234: :abcd: :gear: :computer:
+    
+    > zadaci-3.ipynb :memo: :pencil2:
+    > Zadatak 1-5 (Zadatak 3 - Domaći) | пет комаТа/задатака :satisfied: :rofl:
+    
+    ■ унос броја који има 4 или више цифара са тастатуре → обрада → испис резултата
+    
+    ■ унос текста са тастатуре → обрада → испис листе листи (жељени излаз)
+    
+    > (method) def replace(str1, str2) -> str
+    > class enumerate(Iterable[str], start-int)
+    
+    ``` python
+    lista_indeksa = [i for i, c in enumerate(text) if c in ".!?"]  # елегантно тражење индекса! √
+    ```
+    
+    ■ унос листе листи цијелих бројева са тастатуре → обрада → испис резултата (жељени излаз)
+    
+    ■ унос бројева са тастатуре → обрада → испис резултата обраде (жељени излаз)
+    
+    ``` python
+    def prosti_djelioci(n):
+        lista = list()
+        for i in range(2, n+1):
+            if n % i == 0 and prost(i):
+                lista.append(i)
+    
+        # prethodni kôd možemo zamijeniti sa
+        # lista = [i for i in range(2, n+1) if n % i == 0 and prost(i)]  # одлично! √
+    
+        return lista
+    
+    if __name__ == '__main__':
+        lista_brojeva = list()  # иницијализација празне листе list() конструктором √
+        # ...
+    
+        while b1 + b2 >= b3:
+            b1, b2 = b2, b3  # b1 = b2; b2 = b3;  # прекрасно! √
+            b3 = int(input("Unesite sljedeci broj: "))
+            lista_brojeva.append(b3)
+        # ...
+        lista_listi = [prosti_djelioci(k) for k in lista_brojeva]
+    ```
+    
+    ■ унос листе цијелих бројева са тастатуре → обрада → испис резултата листи не/палиндрома
+
+commit 816679c334d9f7d3d0a53c4669d2d53e12f0f602
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Wed Jan 17 07:16:58 2024 +0100
+
+    ~ `proUCI`/study `vjezbe-3` :goggles: :microscope: :lab_coat:
+    
+    > vjezbe-3.ipynb
+    
+    ~-~ Листе ~-~
+    
+    ■ прављење/креирање листи користећи оператор [] и list() конструктор;
+    
+    ■ Колекције у Пајтон програмском језику (сличности и разлике);
+    
+    ■ дужина листе/број елемената у листи: функција `len(lista)` -> int;
+    ■ додавање на крај листе: метода append(), L1.append(element), L1.append(L2);
+    ■ додавање елемента на жељену позицију: метода `lista.insert(index, element)`;
+    
+    ■ приступање елементима листе: lista[index1][index2] i lista[i1:i2],
+      метода lista.pop() и lista.pop(index); АНАЛИЗА РАДА методе pop() и pop(index);
+    
+    ■ ПРОШИРЕЊЕ ЛИСТЕ методом `extend()` и ОБРАТАЊЕ ЛИСТЕ методом `reverse()`;
+    
+    ■ помоћна метода `clear()`: L1.clear()  # испразни/"очисти" листу; :smile:
+    
+    ■ елемент припада листи или не припада: оператори припадности `in`, `not in`
+      (енгл. Membership Operators) ->
+    
+      • 01-12 Python Operators | W3Schools -> Python `Membership Operators`
+        https://www.w3schools.com/python/python_operators.asp
+    
+      • Python's "in" and "not in" Operators: Check for Membership
+        https://realpython.com/python-in-operator/
+    
+      • `for` петља кроз индексе у листи -> for loop by indexes/indices
+    
+       ``` python
+       for i in range(len(lista)):
+           print(lista[i])
+       ```
+    
+    ■ List Comprehension/Inclusion (срп. `for` петља обухваћена/укључена у листу) :eyes:
+    
+    ■ СПАЈАЊЕ ЛИСТИ:
+      1. САБИРАЊЕМ L3 = L1 + L2,
+      2. ПРОШИРEЊЕМ методом L1.extend(L2),
+      3. УКЉУЧИВАЊЕМ цијеле листе у листу или елемената листе помоћу показивача -> [lista] и [*lista] :eyes:
+    
+    ■ брисање комплетне листе: del lista :eyes:
+    
+    ■ прављење/креирање подлисте дате листе: ИСИЈЕЦАЊЕ ЛИСТЕ (енгл. slicing),
+      slicing са кораком L1[i1:i2:step],
+      в а р и ј а н т е  без и са кораком - позитивним и негативним;
+    
+    ■ ОБРТАЊЕ ЕЛЕМЕНАТА ЛИСТЕ методом `reverse()` и "slicing" са кораком -k,
+      на примјер lista[::-1] и lista[::-3] -> обртање с кораком 1 и 3.
+
+commit 622036cccc35bcb95fe3045c3d1fd289df928e8c
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Mon Jan 15 23:24:08 2024 +0100
+
+    ~ preradi `zadaci-2` :gear: :loop: :nerd_face:
+    
+    > zadaci-2.ipynb :memo: :pencil2:
+    > Zadatak 01-11 + Zadatak za domaći | дванаес[т] комаТа/задатака :satisfied: :rofl:
+    
+    ■ class map() | map(func, *iterables) --> map object
+    ■ (method) def split(sep, maxsplit) -> list[str]
+    ■ (class) int | int([x]) -> integer int(x, base=10) -> integer
+    
+    '''Base 0 means to interpret the base from the string as an integer literal.'''
+    >> int('0b100', base=0)
+    4
+    
+    ■ if (godina % 4 == 0 and godina % 100 != 0) or godina % 400 == 0 | преступна година
+    ■ def min_5_brojeva(broj1, broj2, broj3, broj4, broj5)
+    
+    ■ `while` и `for` петље, унос бројева са тастатуре :1234: :keyboard: :infinity: :zero:
+
+commit c4616cc0637c9029fa4b7b1f031cacb173765d43
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Mon Jan 15 04:05:47 2024 +0100
+
+    ~ pretresi `vjezbe-2` :gear: :loop: :nerd_face:
+    
+    > vjezbe-2.ipynb
+    
+    ■ `if`, `if-elif`, `if-elif-else`;
+    ■ `and` & `or`;
+    ■ `for` petlja, `break`, `continue`, rage();
+    ■ `while` petlja, `break`, `continue`.
+
+commit 1aaef2b48077d940b4b25da484b9f29168beefd1
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Sun Jan 14 11:41:13 2024 +0100
+
+    ~ pretresi `zadaci-1` :gear: :christmas_tree: :nerd_face:
+    
+    > zadaci-1.ipynb :memo: :pencil2:
+    > Zadatak 01-14 | четрнаес[т] комаТа/задатака :satisfied: :rofl:
+
+commit b3395c8e3b85fb1a21ffb6c0ff1ba6ff788a16d5
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Sat Jan 13 23:44:12 2024 +0100
+
+    ~ pretresi `vjezbe-1` :gear: :christmas_tree: :nerd_face:
+    
+    > vjezbe-1.ipynb & birthday-functions.py
+    > dodatni-materijali.pdf
+    
+    > Dodatni materijali za prvi termin vježbi
+    
+    ■ Operatori:
+    o 01-12 Python Operators | W3Schools
+    https://www.w3schools.com/python/python_operators.asp
+    
+    ■ Pisanje specijalnih karaktera:
+    o 01-10f Python Strings - Escape Characters | W3Schools
+    https://www.w3schools.com/python/python_strings_escape.asp
+    
+    ■ String Metode:
+    o 01-10g Python Strings - String Methods | W3Schools
+    https://www.w3schools.com/python/python_strings_methods.asp
+    
+    ■ Ključne riječi i identifikatori:
+    o Python ključne riječi i identifikatori (nazivi varijabli)
+    https://hr.wiki-base.com/7781013-python-keywords-and-identifiers
+    
+    ■ Indentacija:
+    ● PEP 8 – Style Guide for Python Code | peps.python.org
+    https://www.python.org/dev/peps/pep-0008/
+    
+    B O N U S :grinning:
+    =========
+    o Code Lay-out
+    https://peps.python.org/pep-0008/#code-lay-out
+    
+    1) - Indentation
+    `Use 4 spaces per indentation level.`
+    https://peps.python.org/pep-0008/#indentation
+    
+    2) - Tabs or Spaces?
+    `Spaces are the preferred indentation method.`
+    https://peps.python.org/pep-0008/#tabs-or-spaces
+    
+    3) - Maximum Line Length
+    `Limit all lines to a maximum of 79 characters.`
+    https://peps.python.org/pep-0008/#maximum-line-length
+    
+    4) - Should a Line Break Before or After a Binary Operator?
+    `Following the tradition from mathematics usually results in more readable code:`
+    
+    ``` python
+    '''Correct:'''
+    '''easy to match operators with operands'''
+    income = (gross_wages
+              + taxable_interest
+              + (dividends - qualified_dividends)
+              - ira_deduction
+              - student_loan_interest)
+    ```
+    https://peps.python.org/pep-0008/#should-a-line-break-before-or-after-a-binary-operator
+    
+    5) - Blank Lines
+    ```
+    Surround top-level function and class definitions with two blank lines.
+    Method definitions inside a class are surrounded by a single blank line.
+    ```
+    https://peps.python.org/pep-0008/#blank-lines
+    
+    6) - Source File Encoding
+    `Code in the core Python distribution should always use UTF-8, and should not have an encoding declaration.`
+    https://peps.python.org/pep-0008/#source-file-encoding
+    
+    7) - Imports
+    `Imports should usually be on separate lines: ...`
+    https://peps.python.org/pep-0008/#imports
+    
+    8) - Module Level Dunder Names
+    https://peps.python.org/pep-0008/#module-level-dunder-names
+
+commit cf30505aacee0715138e85680b01680499e400aa
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Thu Sep 28 17:04:25 2023 +0200
+
+    ~ preradi `zadatke-1`
+    
+    > Obrati paznju na Zadatak 10: :eyes:
+    
+    // prevodimo to vrijeme u sate, minute i sekunde
+    s_do_ponoci = (S_do_ponoci // (1)) % 60
+    m_do_ponoci = (S_do_ponoci // (60)) % 60
+    h_do_ponoci = (S_do_ponoci // (60 * 60)) % 24
+    
+    > Zadatak 11: :eyes:
+    
+    // izracunavanje zbira cifara
+    cifra_jedinica = (broj // 1) % 10
+    cifra_desetica = (broj // 10) % 10
+    cifra_stotina = (broj // 100) % 10
+    cifra_hiljada = (broj // 1000) % 10
+    zbir_cifara = cifra_jedinica + cifra_desetica + \
+    cifra_stotina + cifra_hiljada
+    
+    > Zadatak 13: :eyes:
+    
+    def u_metre_i_centimetre(duzina):
+        metri = duzina // 100
+        centimentri = duzina % 100
+        return metri, centimentri
+    
+    m, cm = u_metre_i_centimetre(273)
+    print(m, cm)
+    print(f"{m}m {cm}cm")
+    
+    > Zadatak 14: :eyes: :rocket:
+    
+    // Napisati funkciju koja za argument uzima string i ispituje da li je taj string palindrom.
+    
+    def palindrom(tekst):
+        if tekst == "":
+            return True
+        elif tekst[0] != tekst[-1]:
+            return False
+        else:
+            return palindrom(tekst[1 : -1])  # rekurziju ćemo naknadno detaljnije objasniti!
+    
+    print(palindrom("anavolimilovana"))
+    print(palindrom("anavolimilovanA"))
+    print(palindrom("anavolimilovan$"))
+
+commit 92d695422a60e6d5184268c7221051e50e6af04f
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Wed Aug 30 02:52:09 2023 +0200
+
+    ~ uvod u python programski jezik
+    
+    > komentari, instalacija, tipovi podataka, konverzije tipova
+    > prioritet operatora:
+    ```
+    Prioritet operatora od najvišeg do najnižeg:
+    
+    ** (stepenovanje),
+    - (negacija),
+    *, /, //, % (množenje, dijeljenje, cjelobrojno dijeljenje i modul),
+    +, - (sabiranje i oduzimanje).
+    
+    Koristiti zagrade za promjenu prioriteta u programu.
+    Rad sa REPL-om provježbati - replit.com
+    ```
+    > niske (stringovi), svojstva; `in`, `not in` membership operatori;
+      "rezanje" stringa (slicing),
+       modifikacija stringa (pravljenje novog!):
+    ```
+    a = " Zdravo svima!  "
+    print(a.upper())  # sva slova velika
+    print(a.lower())  # sva slova mala
+    print(a)  # NEMA IZMJENE pocetnog stringa! <-- LOOK!
+    print(a.strip())  # brišu se prazni prostori na početku i na kraju
+    print(a.replace("Zd", "P"))  # zamjena karaktera
+    print(a)
+    a = "Zdravo, svima."
+    print(a.split(","))  # vraća ['Zdravo', ' svima.']
+    print(type(a.split(",")))  # <class 'list'>
+    print(a)
+    ```
+    > konkatenacija stringova,
+    > format() metod:
+    
+    // Format metod
+    ~--------------------------------------------------~
+    $ string_with_placeholders.format(fill_in_variables)
+    ~--------------------------------------------------~
+    godine = 26
+    txt = "Moje ime je Milica i ja imam {} godina."
+    > ovaj metod može da uzima neograničen broj argumenata
+    print(txt.format(godine))
+    
+    kolicina = 3
+    sifra = 567
+    cijena = 49
+    narudzba = "Želim {0} komada artikla koji ima šifru {1} za {2:.2f} KM."
+    print(narudzba.format(kolicina, sifra, cijena))
+    
+    $ Pogledati specijalne karaktere i metode za str kao i dodatne materijale za prve vježbe!
+    $ datoteka u prilogu -> dodatni-materijali.pdf | Milica
+    
+    > promjenljive, unos sa tastature, rad sa stringovima:
+    
+    string.count("e")  # broj pojavljivanja u stringu
+    string.index('j')  # indeks prvog pronadjenog karaktera (podstringa) | ValueError: substring not found
+    string.find('je')  # za nepronadjen karakter (podstring) vraca -1 [nema izuzetka za razliku od index()!]
+    string.replace('neki', "jedan")
+    string.startswith("ov") | string.endswith('ING')
+    
+    > viselinijski stringovi (""" string u vise linija """ | '''string''')
+    
+    > dodatak: manipulacija stringovima
+    
+    del string  # briše string, izuzetak -> NameError: name 'string' is not defined
+    
+    print("=" * 50)
+    s1 = "|novi string|"
+    s2 = s1 * 3
+    
+    > f-string / formatted string, Python >= v.3.6
+    print("Jos jedan nacin formatiranja stringa")
+    malo_a = 'a'
+    malo_b = 'b'
+    veliko_c = "C"
+    broj_2 = 2
+    s3 = f"malo a: {malo_a}\nmalo b: {malo_b}\nveliko C: {veliko_c}\nbroj 2: {broj_2}"
+    
+    l1 = string02.split()        # split() metoda vraca LISTU!
+    l2 = string02.split("i", 2)  # broj razdvajanja ogranici na dva(2)!
+    
+    > Šta smo postigli pozivom metode split("i", 2)?
+    > Metod split() sa parametrima "i" i 2 vrši razdvajanje stringa po karakteru "i"!
+    > Važno je primijetiti da je broj razdvajanja stringa po posmatranom karakteru 2.
+    
+    $ Funkcije
+    
+    > U Pajtonu postoje `ugrađene funkcije` kao npr.
+    
+    print(abs(-9))             # apsolutna vrijednost broja -> 9
+    print(abs(-9.6))           # apsolutna vrijednost broja -> 9.6
+    
+    import math                # >> potrebno je import-ovati modul math, pa tek onda ...
+    print(math.fabs(-9))       # 9.0 -> vraca apsolutnu vrijednost kao float (float abs)!
+    
+    print(round(3.4))          # zaokružuje vrijednost -> 3
+    print(round(3.5))          # zaokružuje vrijednost -> 4
+    print(round(3.6))          # zaokružuje vrijednost -> 4
+    
+    print(int(2.5))            # int -> 2
+    print(float(10))           # float -> 10.0
+    
+    print(pow(2, 3))           #  2 ** 3 = 8
+    print(pow(2, 4, 3))        # (2 ** 4) % 3 = 16 % 3 = 1
+    
+    print(min(2, 3, 6, 1, 9))  # vraća najmanji element -> 1
+    print(max(2, 3, 6, 1, 9))  # vraća najveći element --> 9
+    
+    > `korisnicke`, sopstvenom rukom napisane `funkcije`
+    
+    $ Još jedan način navođenja funkcije,
+    $ preporučljivo za početnike - navođenje tipa argumenata i tipa rezultata
+    ```
+    def dani(dan1: int, dan2: int) -> int:
+        return (dan2 - dan1)
+    
+    print(dani(12, 15))
+    ```
+    > primjer
+    
+    def izracunaj_prosjek(a, b, c):
+        return (a + b + c) / 3
+    
+    print(izracunaj_prosjek(1, 2, 3))
+    print("{:.5f}".format(izracunaj_prosjek(1.1, 2.4, 3.5)))
+    
+    > primjer
+    
+    def duzina(s1, s2):
+        return len(s1) + len(s2)
+    
+    print(duzina("Milica", "Marija"))
+
+commit 9ebb305d3346097f9794da06a469a95c1087312b
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Wed Apr 5 15:10:48 2023 +0200
+
+    rename example python files
+
+commit dad54a409f50304204a78aa66fc3f618d1d75ad2
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Wed Mar 29 02:23:16 2023 +0200
+
+    ~ `python functions` specifics
+    
+    > default value of variable is NOT created in function call!
+    > SOLUTION: make default `bag` value immutable! <-- EUREKA !
+    > `None` is immutable type, so function can set dynamically (in runtime)
+      value of variable bag to an empty list !
+
+commit 3ea5cb22214a3660fbd10570377ceb8511031907
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Tue Mar 28 23:21:44 2023 +0200
+
+    pass arguments by key-value
+
+commit a759c75da154bffa0c4c2bd822e36b929d4917e7
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Fri Mar 24 04:45:13 2023 +0100
+
+    add python functions examples
+
+commit de682634f06b7f5a5d5fb26160ec8bfb155c1361
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Wed Mar 22 04:33:15 2023 +0100
+
+    finish lecture 2 with examples
+
+commit 030aae719dfb05d44de1f07660dfd0d4d623d286
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Tue Mar 21 22:33:46 2023 +0100
+
+    ~ Designing Three Birthday-Related Functions
+
+commit b25fb61b39c2d1cd438ed3a03d7e3ff05c0d30a8
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Fri Mar 17 15:30:02 2023 +0100
+
+    add python lists example
+
+commit 03fcf0f5c037dd079d00b76a3a149d1e5baff488
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Thu Mar 16 06:28:58 2023 +0100
+
+    add exercises-1 & pass statement
+
+commit 7533ba2c41d3ae5b88fa5a731d45e48aa3947f95
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Wed Mar 15 16:27:45 2023 +0100
+
+    ~ allow execution of/as python scripts -> `chmod`
+    
+    > change/modify the file permissions
+    > old mode 100644 -> new mode 100755
+
+commit 8a7144a12ac52afdad7557961f9911189cddd131
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Wed Mar 15 16:20:40 2023 +0100
+
+    ~ World's Fastest Square Root: `Newton's Method`
+
+commit db7b17aaa15c0400a696798b6d2466464de44d15
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Wed Mar 15 16:18:20 2023 +0100
+
+    add examples of for-loop and while-loop
+
+commit 435fb93c195718725ef054fa6634877fc7bb8355
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Wed Mar 15 16:12:31 2023 +0100
+
+    complete exercises-01/problems-1
+
+commit c2c58bde65f2a2994f80319d77dc7fd743a6519f
+Author: Dragan Cajic <cajic_dragan@yahoo.com>
+Date:   Wed Mar 15 08:35:25 2023 +0100
+
+    add examples from lecture 1
+
+commit 9811e46c9af4ec6e1ec71cc93fba08fd488cc3cf
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Tue Mar 7 14:40:30 2023 +0100
+
+    Create README.md
+
+commit 44c7e129b1e9251343cad1797d2c8522ff9378af
+Author: Драган Ћајић <cajic_dragan@yahoo.com>
+Date:   Tue Mar 7 14:29:57 2023 +0100
+
+    Initial commit

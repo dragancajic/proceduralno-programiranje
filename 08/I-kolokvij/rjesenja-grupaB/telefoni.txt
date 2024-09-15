@@ -1,0 +1,6 @@
+Huawei, P20 lite: 400
+Xiaomi, Poco X3: 450
+Samsung, A11: 250
+LG, K50: 210
+Samsung, A53: 550
+Huawei, P40 lite: 480
